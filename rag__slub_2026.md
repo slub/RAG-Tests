@@ -5,12 +5,12 @@ tags:
   - ai
   - rag
 concluded:
-description: Im Projekt sollen die erweiterten Möglichkeiten die LLMs im Bereich der Informationsaufbereitung bieten anhand dreier SLUB-relevanter Szenarien sowohl technisch als auch organisatorisch bzw. organisationell exploriert werden.
+description: LLM-basierter Informationsabruf aus SLUB Website, Intranet und Qucosa mittels Retrieval Augmented Generation
 state: in progress
-cssclasses:
-  - academia-tables
 from_obsidian: true
 ---
+# RAG Tests, SLUB
+
 Im Projekt sollen die erweiterten Möglichkeiten die LLMs im Bereich der Informationsaufbereitung bieten anhand dreier SLUB-relevanter Szenarien sowohl technisch als auch organisatorisch bzw. organisationell exploriert werden. Mit Hilfe der Retrieval Augmented Generation sollen spezialisierte LLMs für 
 0. RAG Testsystem
 1. die SLUB Webseite, 
