@@ -14,9 +14,13 @@ Get a ScaDS.AI Key from: https://llm.scads.ai/docs/usage/api/
 Store your OPENAI API Key as environmental variable:
 `export SCADSAI_KEY=sk-...`
 
+> Add the key to your `.bashrc` so that is is available everytime you start a terminal:
+> `echo "" >> ~/.bashrc` 
+> `echo "# Add ScaDS.AI LLM key" >> ~/.bashrc` 
+> `echo "export SCADSAI_KEY=sk-..." >> ~/.bashrc` 
 
 
-> check available models: 
+> **Check available ScaDS.AI models:** 
 > `curl -s https://llm.scads.ai/v1/models   -H "Authorization: Bearer $SCADSAI_KEY" | python -m json.tool`
 > 
 > We use the embedding model `Qwen/Qwen3-Embedding-4B` (2026-02-16).
@@ -44,6 +48,7 @@ sudo apt install -y libmagic-dev
 sudo apt install -y poppler-utils tesseract-ocr tesseract-ocr-all
 sudo apt install -y libreoffice
 sudo apt install -y pandoc
+sudo apt install -y libgl1
 ```
 
 

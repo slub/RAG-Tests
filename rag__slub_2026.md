@@ -26,6 +26,10 @@ https://github.com/jmiba/ai-service-chatbot
 - RAG auf dem Laptop (Linux Mint) einrichten: [RAG, Lokal](notes/rag__lokal.md)
 - RAG auf TUD research cloud [RAG, VM](notes/rag__vm.md)
 
+## Test-Repo
+
+- https://github.com/rue-a/rag-test-system
+
 ## Probleme
 
 - [RAG, Unvollsändiger Retrival](rag__unvollsändiger_retrival.md): Abfrage an Vectorstore liefert unvollständige Antwort
