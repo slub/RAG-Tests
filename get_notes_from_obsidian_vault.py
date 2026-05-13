@@ -189,6 +189,8 @@ def copy_matching_markdown_files(source_dir: Path, target_dir: Path, tag: str):
 # -----------------------------
 
 if __name__ == "__main__":
+    # e.g.: python get_notes_from_obsidian_vault.py ~/Nextcloud/Notes/obsidian/ . rag
+
     import argparse
 
     parser = argparse.ArgumentParser(
